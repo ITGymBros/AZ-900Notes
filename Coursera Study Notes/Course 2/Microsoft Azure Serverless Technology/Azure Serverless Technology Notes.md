@@ -1,0 +1,6 @@
+
+The key for serverless computing is you aren't responsible for the setup or maintenance of the server. This makes it easier for scalability when there's increased or decreased demand (and you don't have to worry about outages.) The cloud vendor takes care of the server and its maintenance.
+
+**Azure Function service** allows you to host a single method or function by using a popular programming language that runs in response to an event. Azure Function scales automatically. Azure function is labeled as a "Stateless environment", meaning that the function acts as if it's restarted every time it responds to an event. For example, if an Azure Function is waiting for an HTTPS request, once it receives that specific request, it will trigger the function to "respond" to the event, and once it has completed its response, it will "restart" and wait for said trigger to be received again. With Azure Functions, you can utilize a **fully fledged programming language** in a compact form.
+
+Azure Logic Apps covers app, data, enterprise, system, and business-to-business integration. Azure Logic Apps is best suited for users who are more comfortable in a visual environment that allows them to automate their business processes. Azure Logic Apps provides a more visual, "low code, no code", environment that allows automation to business processes.
